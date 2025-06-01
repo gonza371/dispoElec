@@ -1,1 +1,4 @@
 \babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Actividad 1: Introducción a la programación en C}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Objetivos}{1}{}%
+\contentsline {subsection}{\numberline {1.2}Desarrollo}{1}{}%

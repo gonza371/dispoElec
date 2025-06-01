@@ -1,43 +1,47 @@
-\documentclass[a4paper]{article}
+\documentclass[a4paper, twocolumn]{article}
 
-\usepackage{xparse}
-\usepackage[table, xcdraw, dvipsnames]{xcolor} % Only load xcolor once, with all needed options
 \usepackage{colortbl}
-\usepackage{circuitikz}
 \usepackage{cancel}
 \usepackage{siunitx}
-\usepackage{float}
 \usepackage{multirow}
 \usepackage{array}
+\usepackage[table, xcdraw, dvipsnames]{xcolor}
 \usepackage{times}
 \usepackage{tikz}
-\usepackage[margin=0cm]{geometry}
+\usepackage[top=0.75in, bottom=1in, inner=0.75in, outer=0.75in,
+            headheight=45pt, headsep=2pt, footskip=5mm]{geometry}
 \usepackage{graphicx}
 \usepackage{anyfontsize}
 \usepackage{fancyhdr}
 \usepackage{indentfirst}
 \usepackage{amsmath}
-\usepackage[spanish]{babel}
+\usepackage[spanish, es-tabla]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[explicit]{titlesec}
 \usepackage{etoolbox}
-\usepackage{multicol}
 \usepackage{enumitem}
-\usepackage{caption}
-\usepackage{subcaption}
+\usepackage[labelformat=simple,labelsep=none]{caption}
+\usepackage{mathptmx}
+\usepackage{lastpage}
 \usepackage{booktabs}
 \usepackage{amsfonts}
 \usepackage[version=4]{mhchem}
-\usepackage{lastpage}
-\usepackage{hyperref}
+\usepackage{float}
+\usepackage{circuitikz}
+\usepackage{subcaption}
+\usepackage{changepage}
+\usepackage{eso-pic}
+% \usepackage{showframe}
+\usepackage{minted}
 
-
-
+\input{newCommands}
 
 \begin{document}
-\include{newCommands}
-\include{caratula}
-\include{configContenido}
-\include{indice}
-
+    \include{caratula}
+    \include{configContenido}
+    \include{indice}
+    \pagestyle{fancy}
+    \input{actividad1.tex}
+    \input{actividad2.tex}
+    \input{actividad3.tex}
 \end{document}
