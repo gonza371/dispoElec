@@ -1,4 +1,14 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Actividad 1: Introducción a la programación en C}{1}{}%
-\contentsline {subsection}{\numberline {1.1}Objetivos}{1}{}%
-\contentsline {subsection}{\numberline {1.2}Desarrollo}{1}{}%
+\contentsline {section}{\numberline {1}Actividad 1: Identificacion de Pines}{1}{}%
+\contentsline {paragraph}{La polaridad de los terminales del diodo está especificada en su encapsulado según lo visto en las clases de aula. De todas formas es posible validar esta polaridad con el multímetro, es justamente lo que se realizará en esta actividad.}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Materiales usados:}{1}{}%
+\contentsline {subsection}{\numberline {1.2}Mediciones:}{1}{}%
+\contentsline {section}{\numberline {2}Actividad 2: Curva Característica de un Diodo}{1}{}%
+\contentsline {subsection}{\numberline {2.1}Objetivo:}{1}{}%
+\contentsline {subsection}{\numberline {2.2}Simulacion de Polarización en Directa:}{1}{}%
+\contentsline {subsection}{\numberline {2.3}Conslusiones de Polarizacion en Directa:}{2}{}%
+\contentsline {subsection}{\numberline {2.4}Simulacion de Polarización en Inversa:}{2}{}%
+\contentsline {paragraph}{Diodo de Silicio 1N4007:}{2}{}%
+\contentsline {paragraph}{Diodo de Germanio 1N60:}{2}{}%
+\contentsline {subsection}{\numberline {2.5}Conclusiones de Polarizacion en Inversa:}{2}{}%
+\contentsline {subsection}{\numberline {2.6}Laboratorio:}{2}{}%
