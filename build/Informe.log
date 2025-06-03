@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.18)  3 JUN 2025 13:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.18)  3 JUN 2025 16:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -744,8 +744,52 @@ Package shellesc Info: Restricted shell escape enabled on input line 77.
 \c@minted@FancyVerbLineTemp=\count387
 \@float@every@listing=\toks49
 \c@listing=\count388
-) (newCommands.tex)
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 39.
+) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+ (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
+\t@pgfplots@toka=\toks50
+\t@pgfplots@tokb=\toks51
+\t@pgfplots@tokc=\toks52
+\pgfplots@tmpa=\dimen350
+\c@pgfplots@coordindex=\count389
+\c@pgfplots@scanlineindex=\count390
+ (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks53
+\t@pgf@tokb=\toks54
+\t@pgf@tokc=\toks55
+(C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count391
+) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count392
+\t@pgfplotstable@a=\toks56
+) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count393
+ (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen351
+\pgfdecoratedremainingdistance=\dimen352
+\pgfdecoratedinputsegmentcompleteddistance=\dimen353
+\pgfdecoratedinputsegmentremainingdistance=\dimen354
+\pgf@decorate@distancetomove=\dimen355
+\pgf@decorate@repeatstate=\count394
+\pgfdecorationsegmentamplitude=\dimen356
+\pgfdecorationsegmentlength=\dimen357
+)
+\tikz@lib@dec@box=\box88
+) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count395
+\pgfplots@xmin@reg=\dimen358
+\pgfplots@xmax@reg=\dimen359
+\pgfplots@ymin@reg=\dimen360
+\pgfplots@ymax@reg=\dimen361
+\pgfplots@zmin@reg=\dimen362
+\pgfplots@zmax@reg=\dimen363
+) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (newCommands.tex)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 41.
  (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (c:\Users\gonfi\Documents\Github\Gonza\dispoElec\build\Informe.aux (c:\Users\gonfi\Documents\Github\Gonza\dispoElec\build\caratula.aux)
@@ -756,33 +800,33 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
  (c:\Users\gonfi\Documents\Github\Gonza\dispoElec\build\configContenido.aux) (c:\Users\gonfi\Documents\Github\Gonza\dispoElec\build\indice.aux))
 \openout1 = `Informe.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
  (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count389
-\scratchdimen=\dimen350
-\scratchbox=\box88
-\nofMPsegments=\count390
-\nofMParguments=\count391
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count392
-\MPscratchDim=\dimen351
-\MPnumerator=\count393
-\makeMPintoPDFobject=\count394
-\everyMPtoPDFconversion=\toks51
+\scratchcounter=\count396
+\scratchdimen=\dimen364
+\scratchbox=\box89
+\nofMPsegments=\count397
+\nofMParguments=\count398
+\everyMPshowfont=\toks57
+\MPscratchCnt=\count399
+\MPscratchDim=\dimen365
+\MPnumerator=\count400
+\makeMPintoPDFobject=\count401
+\everyMPtoPDFconversion=\toks58
 ) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -791,7 +835,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-spanish.trsl
 File: translations-basic-dictionary-spanish.trsl (spanish translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 39.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 41.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -827,16 +871,20 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: changepage package is loaded.
-\caption@adjustwidth@hsize=\dimen352
-\caption@adjustwidth@linewidth=\dimen353
+\caption@adjustwidth@hsize=\dimen366
+\caption@adjustwidth@linewidth=\dimen367
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-Package chemgreek Info: Activating mapping `default' on line 39.
+Package chemgreek Info: Activating mapping `default' on line 41.
+
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
+ on input line 41.
 
 \openout2 = `caratula.aux'.
 
@@ -1125,67 +1173,100 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
+<imagenes/proto1.jpg, id=44, 1204.5pt x 1606.0pt>
+File: imagenes/proto1.jpg Graphic file (type jpg)
+<use imagenes/proto1.jpg>
+Package pdftex.def Info: imagenes/proto1.jpg  used on input line 103.
+(pdftex.def)             Requested size: 199.16928pt x 265.54219pt.
 
 
 File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
 <use ./imagenes/logoDepartamentoElectronica.png>
-Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 98.
+Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 106.
 (pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
 [2 <./imagenes/Circuito2.png> <./imagenes/simulacion2.png> <./imagenes/Circuito3.PNG> <./imagenes/simulacion3.png> <./imagenes/Circuito4.png> <./imagenes/simulacion4.png>]
-<imagenes/proto1.jpg, id=54, 1204.5pt x 1606.0pt>
-File: imagenes/proto1.jpg Graphic file (type jpg)
-<use imagenes/proto1.jpg>
-Package pdftex.def Info: imagenes/proto1.jpg  used on input line 105.
-(pdftex.def)             Requested size: 199.16928pt x 265.54219pt.
 <imagenes/elementos.jpg, id=55, 1204.5pt x 1606.0pt>
 File: imagenes/elementos.jpg Graphic file (type jpg)
 <use imagenes/elementos.jpg>
-Package pdftex.def Info: imagenes/elementos.jpg  used on input line 111.
+Package pdftex.def Info: imagenes/elementos.jpg  used on input line 109.
 (pdftex.def)             Requested size: 199.16928pt x 265.54219pt.
 
-Underfull \vbox (badness 1596) has occurred while \output is active []
-
-
-
-
-Overfull \hbox (52.82771pt too wide) in paragraph at lines 135--144
+Overfull \hbox (14.20815pt too wide) in paragraph at lines 119--128
  [][] 
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Overfull \hbox (15.14783pt too wide) in paragraph at lines 133--142
+ [][] 
+ []
+
+
+Overfull \hbox (45.32771pt too wide) in paragraph at lines 150--159
+ [][] 
+ []
+
+
+Overfull \hbox (25.14783pt too wide) in paragraph at lines 164--173
+ [][] 
+ []
+
+
+Overfull \hbox (19.97911pt too wide) in paragraph at lines 236--237
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
 <use ./imagenes/logoDepartamentoElectronica.png>
-Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 211.
+Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 301.
 (pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
 [3 <./imagenes/proto1.jpg> <./imagenes/elementos.jpg>]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 216.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 340.
  (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)) (actividad3.tex
+)
 
-
+) (actividad3.tex
 
 File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
 <use ./imagenes/logoDepartamentoElectronica.png>
-Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 61.
+Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 1.
 (pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
 [4]
+
+
 Underfull \hbox (badness 1072) in paragraph at lines 77--78
 []$\OML/ztmcm/m/it/10 V[]$\OT1/ptm/m/n/10 : Ten-si[]on m[]axi-ma de en-tra-da (24 VCA $\OMS/ztmcm/m/n/10 !$
  []
 
 
 
-)
+File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
+<use ./imagenes/logoDepartamentoElectronica.png>
+Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 134.
+(pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
+[5])
+
+
 
 File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
 <use ./imagenes/logoDepartamentoElectronica.png>
-Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 47.
+Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 49.
 (pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
-[5] 
+[6
+
+] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20250603130100 485F51DA614295E99B9A62A4CA5961CE)...disabled (restricted).
+runsystem(latexminted cleantemp  --timestamp 20250603163740 485F51DA614295E99B9A62A4CA5961CE)...disabled (restricted).
 
 (c:\Users\gonfi\Documents\Github\Gonza\dispoElec\build\Informe.aux (c:\Users\gonfi\Documents\Github\Gonza\dispoElec\build\caratula.aux)
 LaTeX Info: Redefining \. on input line 9.
@@ -1197,17 +1278,17 @@ L3 programming layer <2025-04-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 46460 strings out of 469940
- 1193761 string characters out of 5469409
- 1902415 words of memory out of 5000000
- 72710 multiletter control sequences out of 15000+600000
- 660542 words of font info for 113 fonts, out of 8000000 for 9000
+ 56406 strings out of 469940
+ 1535766 string characters out of 5469409
+ 2386126 words of memory out of 5000000
+ 82521 multiletter control sequences out of 15000+600000
+ 660964 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,27n,107p,499b,928s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,27n,107p,751b,2293s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:\Users\gonfi\Documents\Github\Gonza\dispoElec\build\Informe.pdf (9 pages, 2920182 bytes).
+Output written on c:\Users\gonfi\Documents\Github\Gonza\dispoElec\build\Informe.pdf (10 pages, 2926508 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
+ 108 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  98 words of extra memory for PDF output out of 10000 (max. 10000000)
 
