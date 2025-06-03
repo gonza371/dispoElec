@@ -2,12 +2,15 @@
 
 \paragraph{La polaridad de los terminales del diodo está especificada en su encapsulado según lo visto en las clases de aula. De todas formas es posible validar esta polaridad con el multímetro, es justamente lo que se realizará en esta actividad.}
 
+
+
 \subsection{Materiales usados:}
 \begin{itemize}
     \item Diodo de silicio 1N4007 y diodos de germanio 1N60
     \item Multímetro
     \item Protoboard
 \end{itemize}
+
 
 \subsection{Mediciones:}
 Primero colocamos el multimetro en modo de deteccion de diodos o continuidad. Para luego colocar los diodos en la protoboard y proceder a medirlos en un sentido y luego en el otro.
@@ -17,24 +20,27 @@ Primero colocamos el multimetro en modo de deteccion de diodos o continuidad. Pa
 \large
 \setlength{\tabcolsep}{9pt}
 \renewcommand{\arraystretch}{1.5}
-\begin{tabular}{|c|c|c|}
+\begin{tabular}{|c|>{\centering\arraybackslash}p{0.5cm}|>{\centering\arraybackslash}p{0.5cm}|>{\centering\arraybackslash}p{0.5cm}|>{\centering\arraybackslash}p{0.5cm}|}
 \hline
-\textbf{Sentido} & \textbf{Germanio} & \textbf{Silicio} \\
+\textbf{Sentido} & \multicolumn{2}{c|}{\textbf{Germanio}} & \multicolumn{2}{c|}{\textbf{Silicio}} \\
+\cline{2-5}
+ & D1 & D2 & D1 & D2 \\
 \hline
 \parbox[c][2.5cm][c]{2.5cm}{\centering % Espacio para imagen de sentido 1
 \vspace{0.2cm}
 \includegraphics[width=2cm]{imagenes/sentido1.png}
 \vspace{0.2cm}
-} &0.312 &0.611 \\
+} &{\small 0.306} &{\small 0.312} &{\small 0.611} &{\small 0.602} \\
 \hline
 \parbox[c][2.5cm][c]{2.5cm}{\centering % Espacio para imagen de sentido 2
 \vspace{0.2cm}
 \includegraphics[width=2cm]{imagenes/sentido2.png}
 \vspace{0.2cm}
-} &0 &0 \\
+} &0 &0 &0 &0 \\
 \hline
 \end{tabular}
-\caption{Mediciones de diodos con multímetro}
+% \caption{Mediciones de diodos con multímetro}
+\renewcommand{\thetable}{}
 \end{table}
 
 \begin{figure}[h!]
@@ -45,5 +51,4 @@ Primero colocamos el multimetro en modo de deteccion de diodos o continuidad. Pa
 \end{figure}
 
 \subsection{Conclusiones}
-Como se puede observar en la tabla y en las imagenes, los valores que solemos usar de 0.7 para silicio y 0.3 para germanio son solo aproximaciones ya que pudimos medir que dependiendo del diodo este varía un poco, en este caso obtuvimos 0.611 para el diodo de silicio y 0.312 para el de germanio.
-
+Como se puede observar en la tabla y en las imagenes, los valores que solemos usar de 0.7 para silicio y 0.3 para germanio son solo aproximaciones ya que pudimos medir que dependiendo del diodo este varía un poco, en este caso obtuvimos 0.611 y 0.602 para los diodos de silicio y 0.312 y 0.306 para los de germanio.

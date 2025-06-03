@@ -13,6 +13,12 @@
 \contentsline {paragraph}{Diodo de Germanio 1N60:}{2}{}%
 \contentsline {subsection}{\numberline {2.5}Conclusiones de Polarizacion en Inversa:}{2}{}%
 \contentsline {subsection}{\numberline {2.6}Laboratorio:}{2}{}%
-\contentsline {section}{\numberline {3}Circuitos recortadores con diodos zener}{2}{}%
-\contentsline {subsection}{\numberline {3.1}Actividad de Laboratorio}{3}{}%
-\contentsline {section}{\numberline {4}Análisis sobre parámetros de hoja de datos}{4}{}%
+\contentsline {subsection}{\numberline {2.7}Comportamiento del diodo en función de la temperatura}{3}{}%
+\contentsline {subsection}{\numberline {2.8}Paso 1: Armado del circuito}{4}{}%
+\contentsline {subsection}{\numberline {2.9}Paso 2: Configuración de la simulación}{4}{}%
+\contentsline {subsection}{\numberline {2.10}Paso 3: Ejecución de la simulación}{4}{}%
+\contentsline {subsection}{\numberline {2.11}Paso 4: Análisis de resultados}{4}{}%
+\contentsline {section}{\numberline {3}Actividad 3: Circuitos recortadores con diodos zener}{4}{}%
+\contentsline {subsection}{\numberline {3.1}Simulación}{4}{}%
+\contentsline {subsection}{\numberline {3.2}Actividad de Laboratorio}{4}{}%
+\contentsline {section}{\numberline {4}Análisis sobre parámetros de hoja de datos}{5}{}%
