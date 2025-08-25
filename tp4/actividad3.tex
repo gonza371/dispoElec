@@ -1,9 +1,58 @@
 \newpage
 
-\section{Actividad 3: Característica de transferencia de corriente}
+\section{Actividad 3: Curva Característica}
 
-\section*{Objetivo}
-Se propondrá una práctica de laboratorio que nos permitirá observar sí la relación
-entre la $I_C$ e $I_B$ se mantiene constante en diferentes regiones de trabajo del transistor. Esta
-relación es la ganancia de corriente ($\beta$).
+ \subsection{Objetivo:}
+Obtener las diferentes curvas características del transistor NPN utilizando dos
+fuentes variables que permitirán obtener las diferentes corrientes y tensiones del transistor.
+
+
+\subsection{Tablas de medición}
+
+\begin{table}[ht]
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|
+>{\columncolor[HTML]{FFCC67}}l |ll|ll|}
+\hline
+\cellcolor[HTML]{FFCC67} &
+  \multicolumn{2}{l|}{\cellcolor[HTML]{96FFFB}\begin{tabular}[c]{@{}l@{}}$I_B=10 \mu A$\\ $V_{BB} = 1,6 V$\end{tabular}} &
+  \multicolumn{2}{l|}{\cellcolor[HTML]{96FFFB}\begin{tabular}[c]{@{}l@{}}$I_B=15 \mu A$\\ $V_{BB} = 2,2V$\end{tabular}} \\ \cline{2-5} 
+\multirow{-2}{*}{\cellcolor[HTML]{FFCC67}\begin{tabular}[c]{@{}l@{}}$V_{CC}$\\ {[}V{]}\end{tabular}} &
+  \multicolumn{1}{l|}{\cellcolor[HTML]{67FD9A}$I_C$} &
+  \cellcolor[HTML]{67FD9A}$V_{CE}$ &
+  \multicolumn{1}{l|}{\cellcolor[HTML]{67FD9A}$I_C$} &
+  \cellcolor[HTML]{67FD9A}$V_{CE}$ \\ \hline
+0,25 & \multicolumn{1}{l|}{$339,95 \mu A$} & $59,65 mV$  & \multicolumn{1}{l|}{$358,29 \mu A$} & $49,37 mV$  \\ \hline
+0,5  & \multicolumn{1}{l|}{$743,75 \mu A$} & $83,49 mV$  & \multicolumn{1}{l|}{$768,11 \mu A$} & $69,85 mV$  \\ \hline
+1    & \multicolumn{1}{l|}{$1,57 mA$}      & $116 mV$    & \multicolumn{1}{l|}{$1,61 mA$}      & $95,94 mV$  \\ \hline
+2    & \multicolumn{1}{l|}{$2,95 mA$}      & $347,25 mV$ & \multicolumn{1}{l|}{$3,32 mA$}      & $138,53 mV$ \\ \hline
+5    & \multicolumn{1}{l|}{$3 mA$}         & $3, 26 V$   & \multicolumn{1}{l|}{$4,88 mA$}      & $2,26 V$    \\ \hline
+10   & \multicolumn{1}{l|}{$3,34 mA$}      & $8,12 V$    & \multicolumn{1}{l|}{$5,27 mA$}      & $7,04 V$    \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+
+\begin{table}[ht]
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|
+>{\columncolor[HTML]{FFCC67}}l |ll|ll|}
+\hline
+\cellcolor[HTML]{FFCC67} &
+  \multicolumn{2}{l|}{\cellcolor[HTML]{96FFFB}\begin{tabular}[c]{@{}l@{}}$I_B=20 \mu A$\\ $V_{BB} = 2,6V$\end{tabular}} &
+  \multicolumn{2}{l|}{\cellcolor[HTML]{96FFFB}\begin{tabular}[c]{@{}l@{}}$I_B=25 \mu A$\\ $V_{BB} = 3,2V$\end{tabular}} \\ \cline{2-5} 
+\multirow{-2}{*}{\cellcolor[HTML]{FFCC67}\begin{tabular}[c]{@{}l@{}}$V_{CC}$\\ {[}V{]}\end{tabular}} &
+  \multicolumn{1}{l|}{\cellcolor[HTML]{67FD9A}$I_C$} &
+  \cellcolor[HTML]{67FD9A}$V_{CE}$ &
+  \multicolumn{1}{l|}{\cellcolor[HTML]{67FD9A}$I_C$} &
+  \cellcolor[HTML]{67FD9A}$V_{CE}$ \\ \hline
+0,25 & \multicolumn{1}{l|}{$366,27 \mu A$} & $44,9 mV$   & \multicolumn{1}{l|}{$375,06 \mu A$} & $39,97 mV$  \\ \hline
+0,5  & \multicolumn{1}{l|}{$778,46 \mu A$} & $64,06 mV$  & \multicolumn{1}{l|}{$789,82 \mu A$} & $57,7 mV$   \\ \hline
+1    & \multicolumn{1}{l|}{$1,62 mA$}      & $88,19 mV$  & \multicolumn{1}{l|}{$1,64 mA$}      & $80 mV$     \\ \hline
+2    & \multicolumn{1}{l|}{$3,35 mA$}      & $123,46 mV$ & \multicolumn{1}{l|}{$3,37 mA$}      & $110,52 mV$ \\ \hline
+5    & \multicolumn{1}{l|}{$5,98 mA$}      & $1,64 V$    & \multicolumn{1}{l|}{$7,53 mA$}      & $783,2 mV$  \\ \hline
+10   & \multicolumn{1}{l|}{$6,46 mA$}      & $6,37 V$    & \multicolumn{1}{l|}{$8,13 mA$}      & $5,44 V$    \\ \hline
+\end{tabular}%
+}
+\end{table}
 
