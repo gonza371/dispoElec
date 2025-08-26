@@ -6,6 +6,26 @@
 Obtener las diferentes curvas características del transistor NPN utilizando dos
 fuentes variables que permitirán obtener las diferentes corrientes y tensiones del transistor.
 
+\includegraphics[width=7cm]{./imagenes/Circuito3.jpg}
+
+\subsection{Materiales usados:}
+\begin{itemize}
+    \item Transistor BC546/7/8/9.
+    \item Resistores $R_B = \SI{100}{\kilo\ohm}$, $R_c = \SI{560}{\ohm}$.
+    \item Dos fuentes variables de 0V hasta (al menos) 10V.
+\end{itemize}
+
+
+\subsection{Procedimiento}
+
+El procedimiento para la obtención de las curvas es repetitivo. Se realizará un barrido de la VCC por cada incremento de VBB (en función de $I_B$). Por cada cambio de $I_B$ se debe llevar a 0V la fuente VCC.
+
+\begin{itemize}
+  \item Con $V_{CC}=0$V e $I_B=0$A, realice un barrido de la tensión $V_{CC}$ y trate de obtener los valores que especifica la tabla 2 (primera columna). Registre el valor de $I_C$ y $V_{CE}$. Analice con profundidad lo que espera medir y debe apoyarse con la simulación.
+  \item Vuelva a configurar $V_{CC}=0$V e intente lograr un incremento de 10$\mu$A para $I_B$. \textbf{Importante:} Si no tiene un instrumento con resolución de $\mu$A se puede obtener el valor de la corriente $I_B$ utilizando el método indirecto mediante la tensión que cae en el resistor $R_B$ y su valor óhmico. Es la principal razón por lo que se elige un valor de 100k$\Omega$ (su valor significativo de tensión será similar a la corriente).
+  \item Repita el paso anterior para otro pequeño incremento de 5$\mu$A y tome las mediciones. Recuerde que la tabla 2 es un ejemplo, debe ajustar la misma a sus condiciones de ensayo y en base a las conclusiones que haya llegado mediante la simulación. Es decir, tenga presente qué pasaría si $I_B=0$A, o si es posible lograr $V_{CE}=10$V. Es importante que sea criterioso, la propuesta es analizar el comportamiento del transistor y con los conocimientos que dispone, es posible que pueda dar respuestas a estos puntos.
+  \item Cada variación de corriente $I_B$ es una curva medida, se solicita que se obtenga mínimo 5 curvas.
+\end{itemize}
 
 \subsection{Tablas de medición}
 
@@ -56,3 +76,12 @@ fuentes variables que permitirán obtener las diferentes corrientes y tensiones 
 }
 \end{table}
 
+\subsection{Gráficos}
+
+En base a los datos obtenidos en las tablas anteriores, podemos graficar las curvas características del transistor BC548.
+
+\includegraphics[width=8cm]{./imagenes/Grafico3.jpg}
+
+\subsection{Conclusiones}
+
+Como se observa en las tablas, despreciamos la parte de las mediciones para cuando ambas fuentes son 0, ya que los valores de $V_{CE}$ y de $I_C$ son irrelevantes en ese punto de operación, incluso algunos estan dados por la mala regulacion de voltaje de las fuentes, ya que es muy complicado llevarlas exactamente al 0.

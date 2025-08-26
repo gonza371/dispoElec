@@ -2,7 +2,12 @@
 
 \section{Actividad 2: Polarización de la juntura BE}
 
-\paragraph{Armar el circuito en una plataforma de simulación con el objetivo de observar la curva de la corriente de base a medida que aumenta la tensión de polarización de la juntura base-emisor. Es importante identificar el codo de la corriente y la estabilidad de la tensión VBE una vez polarizada la juntura. Podría, sí le parece, hacer simulaciones modificando otros parámetros que en el circuito básico se encuentran fijos como VCC(V2) o la temperatura ambiente simulada.}
+
+\subsection{Consigna de Laboratorio}
+Armar el circuito en una plataforma de simulación con el objetivo de observar la curva de la corriente de base a medida que aumenta la tensión de polarización de la juntura base-emisor. Es importante identificar el codo de la corriente y la estabilidad de la tensión VBE una vez polarizada la juntura. Podría, sí le parece, hacer simulaciones modificando otros parámetros que en el circuito básico se encuentran fijos como VCC(V2) o la temperatura ambiente simulada.
+
+\includegraphics[width=7cm]{./imagenes/Circuito2.jpg}
+
 
 
 
@@ -13,8 +18,17 @@
     \item Fuentes de alimentación.
 \end{itemize}
 
+Circuito implementado:\\
 
-\subsection{Mediciones:}
+\includegraphics[width=7cm]{./imagenes/Lab1.jpg}
+
+\newpage
+
+\subsection{Procedimiento}
+
+Manteniendo la $V_{CC} = 10V$, realice un barrido de $0V$ a $10V$ de $V_{BB}$. Se recomienda variar la tensión cada $100mV$ a $500mV$ dependiendo de la proximidad a la región del codo de polarización de la juntura. Aplique las recomendaciones realizadas en el anterior trabajo práctico. Debe medir: $V_{BB}$, $V_{BE}$ e $I_B$. Es importante tener en cuenta el límite de disipación de potencia tanto del transistor como del resistor $R_C$. Si bien el práctico está centrado en el comportamiento de la juntura BE, si el transistor pasa a la zona activa, permitirá corriente en $I_C$ e incrementará la potencia disipada en el resistor del colector. Puede comprobar qué sucede en el simulador y graficar la disipación de potencia en función del barrido de la fuente $V_{BB}$.
+
+\subsection{Tabla de Mediciónes}
 Mantenemos la $V_{CC} = 10V$, realizamos un barrido de 0V a 10V de $V_{BB}$ para completar la siguiente tabla:
 
 \begin{table}[ht]
@@ -28,6 +42,8 @@ Mantenemos la $V_{CC} = 10V$, realizamos un barrido de 0V a 10V de $V_{BB}$ para
 \end{tabular}%
 }
 \end{table}
+
+En case a dicha tabla podemos armar el siguiente grafico:
 
 \begin{figure}[H]
     \centering

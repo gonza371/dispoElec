@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  24 AUG 2025 22:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  26 AUG 2025 12:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -936,11 +936,11 @@ File: ./imagenes/utn.png Graphic file (type png)
 <use ./imagenes/utn.png>
 Package pdftex.def Info: ./imagenes/utn.png  used on input line 8.
 (pdftex.def)             Requested size: 85.35826pt x 92.47275pt.
-<./imagenes/portada.jpg, id=5, 4015.0pt x 3011.25pt>
-File: ./imagenes/portada.jpg Graphic file (type jpg)
-<use ./imagenes/portada.jpg>
-Package pdftex.def Info: ./imagenes/portada.jpg  used on input line 9.
-(pdftex.def)             Requested size: 170.71652pt x 128.0109pt.
+<./imagenes/portada.png, id=5, 1204.5pt x 774.895pt>
+File: ./imagenes/portada.png Graphic file (type png)
+<use ./imagenes/portada.png>
+Package pdftex.def Info: ./imagenes/portada.png  used on input line 9.
+(pdftex.def)             Requested size: 170.71652pt x 109.82066pt.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 16.
  (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -977,7 +977,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 
 {C:/Users/gonfi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
- <./imagenes/utn.png> <./imagenes/portada.jpg>])
+ <./imagenes/utn.png> <./imagenes/portada.png>])
 \openout2 = `configContenido.aux'.
 
  (configContenido.tex)
@@ -1016,37 +1016,256 @@ LaTeX Info: Redefining \% on input line 1.
 
 
 
-] (actividad1.tex) (actividad2.tex
+] (actividad1.tex
+<./imagenes/Circuito1.png, id=24, 444.15938pt x 245.41687pt>
+File: ./imagenes/Circuito1.png Graphic file (type png)
+<use ./imagenes/Circuito1.png>
+Package pdftex.def Info: ./imagenes/Circuito1.png  used on input line 7.
+(pdftex.def)             Requested size: 170.71652pt x 94.32663pt.
+<./imagenes/Grafico1.jpg, id=25, 286.82156pt x 264.99pt>
+File: ./imagenes/Grafico1.jpg Graphic file (type jpg)
+<use ./imagenes/Grafico1.jpg>
+Package pdftex.def Info: ./imagenes/Grafico1.jpg  used on input line 22.
+(pdftex.def)             Requested size: 227.62204pt x 210.30214pt.
+) (actividad2.tex
 
-) (actividad3.tex
+<./imagenes/Circuito2.jpg, id=26, 289.83281pt x 212.29312pt>
+File: ./imagenes/Circuito2.jpg Graphic file (type jpg)
+<use ./imagenes/Circuito2.jpg>
+Package pdftex.def Info: ./imagenes/Circuito2.jpg  used on input line 9.
+(pdftex.def)             Requested size: 199.16928pt x 145.88637pt.
 
-<./imagenes/logoDepartamentoElectronica.png, id=22, 1027.84pt x 1027.84pt>
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+<./imagenes/Lab1.jpg, id=27, 1501.61pt x 1501.61pt>
+File: ./imagenes/Lab1.jpg Graphic file (type jpg)
+<use ./imagenes/Lab1.jpg>
+Package pdftex.def Info: ./imagenes/Lab1.jpg  used on input line 23.
+(pdftex.def)             Requested size: 199.16928pt x 199.15714pt.
+
+
+<./imagenes/logoDepartamentoElectronica.png, id=28, 1027.84pt x 1027.84pt>
 File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
 <use ./imagenes/logoDepartamentoElectronica.png>
-Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 1.
+Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 25.
 (pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
 [1
 
 
- <./imagenes/logoDepartamentoElectronica.png (PNG copy)>]) (actividad4.tex
+ <./imagenes/logoDepartamentoElectronica.png (PNG copy)> <./imagenes/Circuito1.png> <./imagenes/Grafico1.jpg> <./imagenes/Circuito2.jpg> <./imagenes/Lab1.jpg>]) (actividad3.tex
+
+<./imagenes/Circuito3.jpg, id=36, 395.97937pt x 304.88907pt>
+File: ./imagenes/Circuito3.jpg Graphic file (type jpg)
+<use ./imagenes/Circuito3.jpg>
+Package pdftex.def Info: ./imagenes/Circuito3.jpg  used on input line 9.
+(pdftex.def)             Requested size: 199.16928pt x 153.35599pt.
+
+
+File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
+<use ./imagenes/logoDepartamentoElectronica.png>
+Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 53.
+(pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
+[2 <./imagenes/Circuito3.jpg>]
+<./imagenes/Grafico3.jpg, id=42, 752.8125pt x 451.6875pt>
+File: ./imagenes/Grafico3.jpg Graphic file (type jpg)
+<use ./imagenes/Grafico3.jpg>
+Package pdftex.def Info: ./imagenes/Grafico3.jpg  used on input line 83.
+(pdftex.def)             Requested size: 227.62204pt x 136.57558pt.
+) (actividad4.tex
 
 
 Overfull \hbox (13.71591pt too wide) in paragraph at lines 3--3
 |[]$[]$| 
  []
 
+<./imagenes/Circuito4.jpg, id=43, 320.69812pt x 207.77625pt>
+File: ./imagenes/Circuito4.jpg Graphic file (type jpg)
+<use ./imagenes/Circuito4.jpg>
+Package pdftex.def Info: ./imagenes/Circuito4.jpg  used on input line 12.
+(pdftex.def)             Requested size: 199.16928pt x 129.04185pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+[]\OT1/ptm/m/n/10 Gr[]afi-co $\OML/ztmcm/m/it/10 I[] \OT1/ztmcm/m/n/10 = \OML/ztmcm/m/it/10 f\OT1/ztmcm/m/n/10 (\OML/ztmcm/m/it/10 I[]\OT1/ztmcm/m/n/10 )$ \OT1/ptm/m/n/10 pa-ra las di-fe-ren-tes cur-vas
+ []
+
+<./imagenes/Grafico4.jpg, id=44, 752.8125pt x 451.6875pt>
+File: ./imagenes/Grafico4.jpg Graphic file (type jpg)
+<use ./imagenes/Grafico4.jpg>
+Package pdftex.def Info: ./imagenes/Grafico4.jpg  used on input line 43.
+(pdftex.def)             Requested size: 256.0748pt x 153.64752pt.
 ) (actividad5.tex
+Overfull \hbox (26.52338pt too wide) in paragraph at lines 43--1
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--1
+
+ []
+
+
 
 File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
 <use ./imagenes/logoDepartamentoElectronica.png>
 Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 1.
 (pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
-[2]
+[3 <./imagenes/Grafico3.jpg> <./imagenes/Circuito4.jpg> <./imagenes/Grafico4.jpg>]
 Overfull \hbox (47.2653pt too wide) in paragraph at lines 3--3
 |[]$[]$| 
  []
 
+
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 71.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 71.
+
+Missing character: There is no ° in font zptmcm7t!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 71.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 71.
+
+Missing character: There is no ° in font zptmcm7t!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 71.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 71.
+
+Missing character: There is no ° in font zptmcm7t!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 72.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 72.
+
+Missing character: There is no ° in font zptmcm7t!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 72.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 72.
+
+Missing character: There is no ° in font zptmcm7t!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 80.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 80.
+
+Missing character: There is no ° in font zptmcm7t!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 80.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 80.
+
+Missing character: There is no ° in font zptmcm7t!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 81.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 81.
+
+Missing character: There is no ° in font zptmcm7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 110--111
+[]$\OML/ztmcm/m/it/10 I[]$ $\OMS/ztmcm/m/n/10 !$ \OT1/ptm/m/n/10 Co-rrien-te de fu-ga colector-emisor con ba-se
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 116--117
+[]$\OML/ztmcm/m/it/10 I[]$ $\OMS/ztmcm/m/n/10 !$ \OT1/ptm/m/n/10 Co-rrien-te de fu-ga emisor-base con co-lec-tor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 122--123
+[]$\OML/ztmcm/m/it/10 V[]$ $\OMS/ztmcm/m/n/10 !$ \OT1/ptm/m/n/10 Ten-si[]on base-emisor. Es el vol-ta-je ne-ce-sa-rio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 124--125
+\OT1/ptm/m/n/10 el vol-ta-je en-tre co-lec-tor y emi-sor cuan-do el tran-sis-tor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+
+
+File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
+<use ./imagenes/logoDepartamentoElectronica.png>
+Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 129.
+(pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
 )
+Underfull \hbox (badness 10000) in paragraph at lines 132--51
+
+ []
+
+
 
 
 
@@ -1054,11 +1273,11 @@ File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
 <use ./imagenes/logoDepartamentoElectronica.png>
 Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 51.
 (pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
-[3
+[5
 
 ] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20250824220649 485F51DA614295E99B9A62A4CA5961CE)...disabled (restricted).
+runsystem(latexminted cleantemp  --timestamp 20250826122736 485F51DA614295E99B9A62A4CA5961CE)...disabled (restricted).
 
 (c:\Users\gonfi\Documents\Github\Gonza\dispoElec\tp4\build\Informe.aux (c:\Users\gonfi\Documents\Github\Gonza\dispoElec\tp4\build\caratula.aux)
 LaTeX Info: Redefining \. on input line 9.
@@ -1070,17 +1289,17 @@ L3 programming layer <2025-05-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 55834 strings out of 468225
- 1520833 string characters out of 5432973
- 2392407 words of memory out of 5000000
- 83667 multiletter control sequences out of 15000+600000
- 648114 words of font info for 82 fonts, out of 8000000 for 9000
+ 55907 strings out of 468225
+ 1522768 string characters out of 5432973
+ 2406407 words of memory out of 5000000
+ 83739 multiletter control sequences out of 15000+600000
+ 648593 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,26n,107p,755b,2005s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:\Users\gonfi\Documents\Github\Gonza\dispoElec\tp4\build\Informe.pdf (7 pages, 1995431 bytes).
+ 102i,26n,107p,896b,2005s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on c:\Users\gonfi\Documents\Github\Gonza\dispoElec\tp4\build\Informe.pdf (9 pages, 1917960 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
