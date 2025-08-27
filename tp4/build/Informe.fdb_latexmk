@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1756312609.05283 "c:/Users/gonfi/Documents/Github/Gonza/dispoElec/Tp4/Informe.tex" "build/Informe.pdf" "Informe" 1756312610.82036 0
+["pdflatex"] 1756313097.58036 "c:/Users/gonfi/Documents/Github/Gonza/dispoElec/Tp4/Informe.tex" "build/Informe.pdf" "Informe" 1756313099.33322 0
   "C:/Users/gonfi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1755564063 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/gonfi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1750263635 13234938 d58bb3502aaad703297f3d501f0c0d64 ""
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -250,13 +250,13 @@
   "actividad3.tex" 1756312250 500 440a1ed53caaa43c82fb4fe7e7fe4f94 ""
   "actividad4.tex" 1756312484 548 d7f451b2a721931afba48d0a58e0d212 ""
   "actividad5.tex" 1756312608 383 1a8ad45564c3c95732d14f6f221875ca ""
-  "build/Informe.aux" 1756312610 3109 a2187529fa699724f5201f877749691e "pdflatex"
-  "build/Informe.toc" 1756312610 1510 874d6b50cf1728397efa5c4e677d237d "pdflatex"
-  "build/caratula.aux" 1756312610 1115 67a0d1b237c1c1a21dc6a4b2ecef9d9b "pdflatex"
-  "build/configContenido.aux" 1756312610 1098 fb2b1fa013dea40cae7858d5f4a5ed0e "pdflatex"
-  "build/indice.aux" 1756312610 1137 26c281ae344092a4849eb971eda8b962 "pdflatex"
+  "build/Informe.aux" 1756313099 3109 a2187529fa699724f5201f877749691e "pdflatex"
+  "build/Informe.toc" 1756313099 1510 874d6b50cf1728397efa5c4e677d237d "pdflatex"
+  "build/caratula.aux" 1756313098 1115 67a0d1b237c1c1a21dc6a4b2ecef9d9b "pdflatex"
+  "build/configContenido.aux" 1756313098 1098 fb2b1fa013dea40cae7858d5f4a5ed0e "pdflatex"
+  "build/indice.aux" 1756313098 1137 26c281ae344092a4849eb971eda8b962 "pdflatex"
   "c:/Users/gonfi/Documents/Github/Gonza/dispoElec/Tp4/Informe.tex" 1756083985 1312 1fe46e46422021dd9b904b080a8d0ea9 ""
-  "caratula.tex" 1756310211 1836 159dd1a5cdc26deaad3dceee45268ca7 ""
+  "caratula.tex" 1756313097 1845 53570a04d0c8cb0105039c6197434295 ""
   "configContenido.tex" 1749086451 1243 5f5f16aa03a6235777125aa4d1a48f99 ""
   "imagenes/Circ1.png" 1756310819 23286 3b485280afc57fc285fadaf7f143c16f ""
   "imagenes/Circ2.png" 1756311495 17854 562faeb0c10092c4ce3b4e7fff38200b ""
