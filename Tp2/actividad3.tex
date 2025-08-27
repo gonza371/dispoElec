@@ -1,0 +1,155 @@
+\newpage
+
+\section{Actividad 3: Circuitos recortadores con diodos zener}
+
+\section*{Objetivo}
+El objetivo de este trabajo es comprender y analizar el uso de los diodos zener en aplicaciones de corriente alterna (CA), específicamente como recortadores de voltaje, mediante la simulación y la implementación práctica de los circuitos.
+
+
+\subsection{Simulación}
+Se simuló el comportamiento de los circuitos a) y b) mostrados en la Figura 4. Estos circuitos utilizan diodos zener para limitar la señal de salida a determinados niveles de tensión.
+
+% AQUÍ VA LA IMAGEN DE LOS CIRCUITOS a) Y b)
+\begin{figure}[H]
+    \centering
+    %\includegraphics[width=0.8\textwidth]{ruta/circuitos_zener.png}
+    \caption{Circuitos con diodos zener para recorte de tensión: a) recorte simétrico, b) recorte asimétrico.}
+\end{figure}
+
+\subsubsection*{Configuración en LTspice}
+\begin{itemize}
+    \item Se utilizó una fuente de 24 VCA como entrada.
+    \item Se colocó una resistencia limitadora de 1 k$\Omega$ en serie.
+    \item Se usaron diodos zener de:
+    \begin{itemize}
+        \item 5,1 V y 20 V para el circuito a).
+        \item 6,8 V y 12 V para el circuito b).
+    \end{itemize}
+\end{itemize}
+
+\subsubsection*{Resultados de la Simulación}
+A continuación se presentan las señales de salida obtenidas para ambos circuitos simulados.
+
+% AQUÍ VA LA IMAGEN DE LA SALIDA DEL CIRCUITO A)
+\begin{figure}[H]
+    \centering
+    %\includegraphics[width=0.7\textwidth]{ruta/salida_circuito_a.png}
+    \caption{Señal de salida del circuito a) con recorte simétrico.}
+\end{figure}
+
+% AQUÍ VA LA IMAGEN DE LA SALIDA DEL CIRCUITO B)
+\begin{figure}[H]
+    \centering
+    %\includegraphics[width=0.7\textwidth]{ruta/salida_circuito_b.png}
+    \caption{Señal de salida del circuito b) con recorte asimétrico.}
+\end{figure}
+
+\subsubsection*{Análisis}
+\begin{itemize}
+    \item En el circuito a), los diodos zener actúan en ambas mitades del ciclo de la señal AC, recortando los picos a aproximadamente ±5,1 V y ±20 V.
+    \item En el circuito b), el recorte se realiza de forma asimétrica: uno de los semiperíodos se limita a ±6,8 V y el otro a ±12 V.
+\end{itemize}
+
+\subsection{Actividad de Laboratorio}
+
+El objetivo de la actividad es analizar la aplicación de los diodos zener como recortadores. Para ello se implementarán los circuitos a) y b) de la Figura 4.
+
+\textbf{Instrumental y componentes:}
+\begin{enumerate}
+    \item Osciloscopio
+    \item Diodos Zener de 5,1 V, 6,8 V, 12 V y 20 V (todos 2W o 5W según disponibilidad)
+    \item Resistencia 1 k$\Omega$ (2W)
+    \item Transformador 220 VCA / 24 VCA
+\end{enumerate}
+
+\subsection*{Procedimiento}
+
+\textbf{Paso 1: Cálculo de la resistencia limitadora de corriente}
+
+Para limitar la corriente que circula por los diodos zener, se utiliza una resistencia en serie. El valor de esta resistencia se calcula mediante la siguiente fórmula:
+
+\[
+R = \frac{V_{\text{in(max)}} - V_Z}{I_Z + I_L}
+\]
+
+Donde:
+\begin{itemize}
+    \item \( V_{\text{in(max)}} \): Tensión máxima de entrada (24 VCA $\rightarrow$ $V_{pico} \approx 33.9$ V)
+    \item \( V_Z \): Tensión zener del diodo correspondiente
+    \item \( I_Z \): Corriente mínima de conducción del zener (se asume 5 mA)
+    \item \( I_L \): Corriente de carga (se asume despreciable)
+\end{itemize}
+
+\textbf{Circuito a):}  
+Zener de 5,1 V y 20 V conectados en oposición. Se usa el mayor valor (20 V):
+
+\[
+R_a = \frac{33.9 - 20}{0.005} = 2780\ \Omega
+\]
+
+\textbf{Circuito b):}  
+Zener de 6,8 V y 12 V conectados en oposición. Se usa el mayor valor (12 V):
+
+\[
+R_b = \frac{33.9 - 12}{0.005} = 4380\ \Omega
+\]
+
+En ambos casos se eligió una resistencia de 1 k$\Omega$ (2W), ya que permite el funcionamiento del zener sin sobrepasar los valores de corriente seguros.
+
+\textbf{Paso 2: Armado del circuito a)}
+
+Se armó el circuito a) de la Figura 4 en protoboard, utilizando los componentes indicados.
+
+% AQUÍ VA LA FOTO DEL CIRCUITO A) ARMADO
+\begin{figure}[H]
+    \centering
+    %\includegraphics[width=0.7\textwidth]{ruta/circuito_a_fisico.png}
+    \caption{Circuito a) armado en protoboard.}
+\end{figure}
+
+\textbf{Paso 3: Medición de la señal de salida del circuito a)}
+
+Se conectó el osciloscopio a la salida y se registró la señal recortada por los zener.
+
+% AQUÍ VA LA CAPTURA DE PANTALLA DEL OSCILOSCOPIO - CIRCUITO A)
+\begin{figure}[H]
+    \centering
+    %\includegraphics[width=0.7\textwidth]{ruta/osciloscopio_circuito_a.png}
+    \caption{Señal de salida del circuito a) medida con osciloscopio.}
+\end{figure}
+
+\textbf{Paso 4: Armado del circuito b)}
+
+Se armó el circuito b) con los zener de 6,8 V y 12 V, usando también la resistencia de 1 k$\Omega$.
+
+% AQUÍ VA LA FOTO DEL CIRCUITO B) ARMADO
+\begin{figure}[H]
+    \centering
+    %\includegraphics[width=0.7\textwidth]{ruta/circuito_b_fisico.png}
+    \caption{Circuito b) armado en protoboard.}
+\end{figure}
+
+\textbf{Paso 5: Medición de la señal de salida del circuito b)}
+
+Se registró la forma de onda a la salida del circuito con el osciloscopio.
+
+% AQUÍ VA LA CAPTURA DE PANTALLA DEL OSCILOSCOPIO - CIRCUITO B)
+\begin{figure}[H]
+    \centering
+    %\includegraphics[width=0.7\textwidth]{ruta/osciloscopio_circuito_b.png}
+    \caption{Señal de salida del circuito b) medida con osciloscopio.}
+\end{figure}
+
+\textbf{Paso 6: Comparación con la simulación}
+
+Se compararon las señales reales obtenidas con las formas de onda obtenidas en LTspice. Se verificó buena concordancia entre los valores de tensión de recorte esperados y medidos.
+
+\textbf{Paso 7: Conclusiones intermedias}
+
+\begin{itemize}
+    \item En el circuito a), el recorte es simétrico (±5,1 V y ±20 V).
+    \item En el circuito b), el recorte es asimétrico (±6,8 V y ±12 V).
+    \item El uso de diodos zener en oposición permite limitar la señal en ambas mitades del ciclo.
+    \item La resistencia limitadora es fundamental para proteger los zener y controlar la corriente.
+\end{itemize}
+\section{Análisis sobre parámetros de hoja de datos}

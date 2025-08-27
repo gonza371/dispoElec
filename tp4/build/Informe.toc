@@ -1,23 +1,23 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Actividad 1: Tansistor en zona de corte}{1}{}%
-\contentsline {subsection}{\numberline {1.1}Actividad de Simulación}{1}{}%
-\contentsline {subsection}{\numberline {1.2}Materiales usados:}{1}{}%
-\contentsline {subsection}{\numberline {1.3}Gráfico}{1}{}%
-\contentsline {subsection}{\numberline {1.4}Conclusiones}{1}{}%
-\contentsline {section}{\numberline {2}Actividad 2: Polarización de la juntura BE}{1}{}%
-\contentsline {subsection}{\numberline {2.1}Consigna de Laboratorio}{1}{}%
-\contentsline {subsection}{\numberline {2.2}Materiales usados:}{1}{}%
-\contentsline {subsection}{\numberline {2.3}Procedimiento}{2}{}%
-\contentsline {subsection}{\numberline {2.4}Tabla de Mediciónes}{2}{}%
-\contentsline {section}{\numberline {3}Actividad 3: Curva Característica}{2}{}%
-\contentsline {subsection}{\numberline {3.1}Objetivo:}{2}{}%
-\contentsline {subsection}{\numberline {3.2}Materiales usados:}{2}{}%
-\contentsline {subsection}{\numberline {3.3}Procedimiento}{2}{}%
-\contentsline {subsection}{\numberline {3.4}Tablas de medición}{3}{}%
-\contentsline {subsection}{\numberline {3.5}Gráficos}{3}{}%
-\contentsline {subsection}{\numberline {3.6}Conclusiones}{3}{}%
-\contentsline {section}{\numberline {4}Actividad 4: Característica de transferencia de corriente}{3}{}%
-\contentsline {subsection}{\numberline {4.1}Materiales usados:}{3}{}%
-\contentsline {subsection}{\numberline {4.2}Tabla de medición}{3}{}%
-\contentsline {subsection}{\numberline {4.3}Gráficos}{3}{}%
-\contentsline {section}{\numberline {5}Actividad 5: Interpretación de las especificaciones del fabricante}{4}{}%
+\contentsline {section}{\numberline {1}Actividad 1: Corriente de Saturación $I_{DSS}$}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Simulación}{1}{}%
+\contentsline {subsection}{\numberline {1.2}Laboratorio}{1}{}%
+\contentsline {paragraph}{Instrumental y Materiales}{1}{}%
+\contentsline {paragraph}{Procedimiento}{1}{}%
+\contentsline {section}{\numberline {2}Estrangulamiento del Canal $V_{GS(off)}$}{1}{}%
+\contentsline {subsection}{\numberline {2.1}Simulación}{1}{}%
+\contentsline {subsection}{\numberline {2.2}Laboratorio}{1}{}%
+\contentsline {paragraph}{Instrumental y Materiales}{1}{}%
+\contentsline {paragraph}{Procedimiento}{1}{}%
+\contentsline {section}{\numberline {3}Actividad 3: Característica de transferencia universal}{2}{}%
+\contentsline {subsection}{\numberline {3.1}Simulación}{2}{}%
+\contentsline {subsection}{\numberline {3.2}Laboratorio}{2}{}%
+\contentsline {paragraph}{Instrumental y Materiales}{2}{}%
+\contentsline {paragraph}{Procedimiento}{2}{}%
+\contentsline {section}{\numberline {4}Actividad 4: Característica de salida del JFET}{2}{}%
+\contentsline {subsection}{\numberline {4.1}Simulación}{2}{}%
+\contentsline {subsection}{\numberline {4.2}Laboratorio}{2}{}%
+\contentsline {paragraph}{Instrumental y Materiales}{2}{}%
+\contentsline {paragraph}{Procedimiento}{2}{}%
+\contentsline {section}{\numberline {5}Actividad 5: Interpretación de las especificaciones del fabricante}{3}{}%
+\contentsline {subsection}{\numberline {5.1}Actividad}{3}{}%
