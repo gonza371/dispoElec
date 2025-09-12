@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  27 AUG 2025 13:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  11 SEP 2025 22:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1017,21 +1017,34 @@ LaTeX Info: Redefining \% on input line 1.
 
 
 ] (actividad1.tex
-<./imagenes/Circ1.png, id=26, 1039.63406pt x 627.09282pt>
+<./imagenes/Circ1.png, id=26, 677.53125pt x 511.15968pt>
 File: ./imagenes/Circ1.png Graphic file (type png)
 <use ./imagenes/Circ1.png>
-Package pdftex.def Info: ./imagenes/Circ1.png  used on input line 7.
-(pdftex.def)             Requested size: 170.71652pt x 102.96828pt.
+Package pdftex.def Info: ./imagenes/Circ1.png  used on input line 8.
+(pdftex.def)             Requested size: 170.71652pt x 128.79575pt.
+<./imagenes/Sim1.png, id=27, 537.50812pt x 327.47343pt>
+File: ./imagenes/Sim1.png Graphic file (type png)
+<use ./imagenes/Sim1.png>
+Package pdftex.def Info: ./imagenes/Sim1.png  used on input line 12.
+(pdftex.def)             Requested size: 227.62204pt x 138.67719pt.
+<./imagenes/Res1.jpg, id=28, 906.38625pt x 902.6222pt>
+File: ./imagenes/Res1.jpg Graphic file (type jpg)
+<use ./imagenes/Res1.jpg>
+Package pdftex.def Info: ./imagenes/Res1.jpg  used on input line 31.
+(pdftex.def)             Requested size: 170.71652pt x 169.99875pt.
+
+Underfull \vbox (badness 1028) has occurred while \output is active []
+
+
+
+<./imagenes/Lab1.jpg, id=29, 906.38625pt x 898.10532pt>
+File: ./imagenes/Lab1.jpg Graphic file (type jpg)
+<use ./imagenes/Lab1.jpg>
+Package pdftex.def Info: ./imagenes/Lab1.jpg  used on input line 33.
+(pdftex.def)             Requested size: 170.71652pt x 169.14804pt.
 ) (actividad2.tex
 
-<./imagenes/Circ2.png, id=27, 757.32938pt x 502.12593pt>
-File: ./imagenes/Circ2.png Graphic file (type png)
-<use ./imagenes/Circ2.png>
-Package pdftex.def Info: ./imagenes/Circ2.png  used on input line 9.
-(pdftex.def)             Requested size: 170.71652pt x 113.18799pt.
-) (actividad3.tex
-
-<./imagenes/logoDepartamentoElectronica.png, id=28, 1027.84pt x 1027.84pt>
+<./imagenes/logoDepartamentoElectronica.png, id=30, 1027.84pt x 1027.84pt>
 File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
 <use ./imagenes/logoDepartamentoElectronica.png>
 Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 1.
@@ -1039,14 +1052,38 @@ Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on inp
 [1
 
 
- <./imagenes/logoDepartamentoElectronica.png (PNG copy)> <./imagenes/Circ1.png> <./imagenes/Circ2.png>]
+ <./imagenes/logoDepartamentoElectronica.png (PNG copy)> <./imagenes/Circ1.png> <./imagenes/Sim1.png> <./imagenes/Res1.jpg> <./imagenes/Lab1.jpg>]
+<./imagenes/Circ2.png, id=38, 675.27281pt x 471.26062pt>
+File: ./imagenes/Circ2.png Graphic file (type png)
+<use ./imagenes/Circ2.png>
+Package pdftex.def Info: ./imagenes/Circ2.png  used on input line 9.
+(pdftex.def)             Requested size: 170.71652pt x 119.13797pt.
+<./imagenes/Sim2.png, id=39, 505.89pt x 434.37282pt>
+File: ./imagenes/Sim2.png Graphic file (type png)
+<use ./imagenes/Sim2.png>
+Package pdftex.def Info: ./imagenes/Sim2.png  used on input line 13.
+(pdftex.def)             Requested size: 227.62204pt x 195.44608pt.
+<./imagenes/Lab2.jpg, id=40, 847.66687pt x 847.66687pt>
+File: ./imagenes/Lab2.jpg Graphic file (type jpg)
+<use ./imagenes/Lab2.jpg>
+Package pdftex.def Info: ./imagenes/Lab2.jpg  used on input line 31.
+(pdftex.def)             Requested size: 170.71652pt x 170.70738pt.
+
+
+) (actividad3.tex
+
+File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
+<use ./imagenes/logoDepartamentoElectronica.png>
+Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 1.
+(pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
+[2 <./imagenes/Circ2.png> <./imagenes/Sim2.png> <./imagenes/Lab2.jpg>]
 Overfull \hbox (1.596pt too wide) in paragraph at lines 3--3
 |[]$[]$| 
  []
 
 ) (actividad4.tex
 
-<./imagenes/Circ4.png, id=34, 813.79031pt x 483.30562pt>
+<./imagenes/Circ4.png, id=46, 813.79031pt x 483.30562pt>
 File: ./imagenes/Circ4.png Graphic file (type png)
 <use ./imagenes/Circ4.png>
 Package pdftex.def Info: ./imagenes/Circ4.png  used on input line 9.
@@ -1057,7 +1094,7 @@ File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
 <use ./imagenes/logoDepartamentoElectronica.png>
 Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 1.
 (pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
-[2 <./imagenes/Circ4.png>]
+[3 <./imagenes/Circ4.png>]
 Overfull \hbox (47.2653pt too wide) in paragraph at lines 3--3
 |[]$[]$| 
  []
@@ -1070,11 +1107,11 @@ File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
 <use ./imagenes/logoDepartamentoElectronica.png>
 Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 51.
 (pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
-[3
+[4
 
 ] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20250827134457 485F51DA614295E99B9A62A4CA5961CE)...disabled (restricted).
+runsystem(latexminted cleantemp  --timestamp 20250911223547 485F51DA614295E99B9A62A4CA5961CE)...disabled (restricted).
 
 (c:\Users\gonfi\Documents\Github\Gonza\dispoElec\Tp4\build\Informe.aux (c:\Users\gonfi\Documents\Github\Gonza\dispoElec\Tp4\build\caratula.aux)
 LaTeX Info: Redefining \. on input line 9.
@@ -1086,17 +1123,17 @@ L3 programming layer <2025-05-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 55459 strings out of 468225
- 1509818 string characters out of 5432973
- 2377407 words of memory out of 5000000
- 83293 multiletter control sequences out of 15000+600000
- 647784 words of font info for 81 fonts, out of 8000000 for 9000
+ 55502 strings out of 468225
+ 1510875 string characters out of 5432973
+ 2383407 words of memory out of 5000000
+ 83335 multiletter control sequences out of 15000+600000
+ 648114 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,26n,107p,755b,799s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:\Users\gonfi\Documents\Github\Gonza\dispoElec\Tp4\build\Informe.pdf (7 pages, 1343520 bytes).
+<C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on c:\Users\gonfi\Documents\Github\Gonza\dispoElec\Tp4\build\Informe.pdf (8 pages, 1929361 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
