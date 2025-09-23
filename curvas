@@ -1,0 +1,26 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Datos
+V_DS = np.array([1.24, 1.6, 2.13, 4, 6, 10, 15])  # en Voltios
+
+ID_172mV = np.array([1.56, 1.79, 2.05, 2.7, 3.21, 4, 5.1])   # mA
+ID_250mV = np.array([0.95, 1.0, 1.22, 1.64, 2.0, 2.7, 3.52]) # mA
+ID_390mV = np.array([0.16, 0.19, 0.24, 0.39, 0.55, 0.9, 1.4]) # mA
+ID_530mV = np.array([0.00484, 0.00628, 0.00817, 0.01605, 0.0254, 0.12, 0.27]) # mA
+
+# Gráfica
+plt.figure(figsize=(7,5))
+plt.plot(V_DS, ID_172mV, 'o-', label="VGS = 172 mV")
+plt.plot(V_DS, ID_250mV, 's-', label="VGS = 250 mV")
+plt.plot(V_DS, ID_390mV, 'd-', label="VGS = 390 mV")
+plt.plot(V_DS, ID_530mV, 'x-', label="VGS = 530 mV")
+
+# Etiquetas
+plt.title("Curvas características de salida del JFET", fontsize=14)
+plt.xlabel("VDS [V]", fontsize=12)
+plt.ylabel("ID [mA]", fontsize=12)
+plt.grid(True, linestyle="--", alpha=0.6)
+plt.legend()
+plt.tight_layout()
+plt.show()
