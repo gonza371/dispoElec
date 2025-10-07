@@ -28,9 +28,9 @@ Para la realizacion de la actividad implementamos el circuito mostrado en la sig
 
 Ejemplo de medición a 3V:
 
-\includegraphics[width=6cm]{./imagenes/Res1.jpg}
+\includegraphics[width=5.5cm]{./imagenes/Res1.jpg}
 
-\includegraphics[width=6cm]{./imagenes/Lab1.jpg}
+\includegraphics[width=5.5cm]{./imagenes/Lab1.jpg}
 
 
 \begin{table}[ht]
@@ -48,6 +48,7 @@ $6V$     & $6,48mA$  \\ \hline
 $8V$     & $7,34mA$  \\ \hline
 $10V$    & $8mA$     \\ \hline
 $14,8V$  & $9,56mA$  \\ \hline
+$17V$    & $9,6mA$  \\ \hline
 \end{tabular}
 }
 \end{table}
@@ -60,12 +61,12 @@ $14,8V$  & $9,56mA$  \\ \hline
         \begin{axis}[
             width=8cm,
             height=5cm,
-            xlabel={$V_{DS}$ [V]},
-            ylabel={$I_D$ [mA]},
+            xlabel={$V_{DS}$},
+            ylabel={$I_D$},
             grid=major,
             ymin=0, ymax=10,
-            xmin=0, xmax=16,
-            xtick={0,2,4,6,8,10,12,14},
+            xmin=0, xmax=18,
+            xtick={0,2,4,6,8,10,12,14,16,18},
             ytick={0,2,4,6,8,10},
             legend pos=north west
         ]
@@ -83,19 +84,18 @@ $14,8V$  & $9,56mA$  \\ \hline
             (8,7.34)
             (10,8)
             (14.8,9.56)
+            (17,9.6)
         };
         \legend{Datos medidos}
         \end{axis}
     \end{tikzpicture}
-    \caption{Gráfica de $I_D$ vs $V_{DS}$ obtenida en laboratorio}
+    \caption{Gráfica de $I_D$ (mA) vs $V_{DS}$ (V) obtenida en laboratorio}
 \end{figure}
 
 
 \subsection{Conclusión}
 
-Podemos ver que el valor de $I_{DSS}$ es 9,56, lo cual difiere con el obtenido en la hoja de datos el cual es de 20mA, pero esto se debe a dos factores.\\
-El primero es que la calidad del JFET seleccionado no es muy buena, y por ello hay diferencias en los valores.\\
-Y la segunda es que para proteccion del elemento se le añadio la resistencia mencionada anteriormente, lo cual hace menor la corriente de drenaje.
+Podemos ver que el valor de $I_{DSS}$ es 9,56, lo cual difiere con el obtenido en la hoja de datos el cual es de 20mA, pero esto se debe a la resistencia usada en el drenador, la cual limita la corriente de drenaje, y tambien las diferencias en las características del dispositivo usado en el laboratorio.\\
 
 \section{Actividad 2: Estrangulamiento del Canal $V_{GS(off)}$}
 
