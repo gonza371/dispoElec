@@ -34,7 +34,7 @@ Ejemplo de medición a 3V:
 
 
 \begin{table}[ht]
-\resizebox{6cm}{!}{%
+\resizebox{4.5cm}{!}{%
 \begin{tabular}{|l|l|}
 \hline
 \rowcolor[HTML]{FFCE93} 
@@ -54,7 +54,42 @@ $14,8V$  & $9,56mA$  \\ \hline
 
 \vspace{0.1cm}
 
-\includegraphics[width=8cm]{./imagenes/graficap1.png}
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            width=8cm,
+            height=5cm,
+            xlabel={$V_{DS}$ [V]},
+            ylabel={$I_D$ [mA]},
+            grid=major,
+            ymin=0, ymax=10,
+            xmin=0, xmax=16,
+            xtick={0,2,4,6,8,10,12,14},
+            ytick={0,2,4,6,8,10},
+            legend pos=north west
+        ]
+        \addplot[
+            color=blue,
+            mark=*,
+            thick
+        ] coordinates {
+            (0.15,0.210)
+            (1,1.61)
+            (1.5,2.43)
+            (2,3.2)
+            (4,5.36)
+            (6,6.48)
+            (8,7.34)
+            (10,8)
+            (14.8,9.56)
+        };
+        \legend{Datos medidos}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Gráfica de $I_D$ vs $V_{DS}$ obtenida en laboratorio}
+\end{figure}
+
 
 \subsection{Conclusión}
 
@@ -71,8 +106,12 @@ Para la siguente simulacion añadiremos una fuente que varía de 0 a 7 en polari
 \includegraphics[width=6cm]{./imagenes/Circ2.png}
 
 Al simularlo se obtiene la siguiente gráfica:
-
-\includegraphics[width=8cm]{./imagenes/Sim2.png}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=8cm]{./imagenes/Sim2.png}
+    \caption{Gráfica de $I_D$ (mA) vs $V_{GS}$ (V) obtenida en simulación}
+    \label{fig:sim2}
+\end{figure}
 
 En ella observamos El valor $I_{DSS}$ de la simulación anterios rondando los 12mV, y ademas obtenemos un nuevo valor, el cual es $V_{GS(off)}$ que en nuestro caso es de -3,3V.
 
@@ -93,7 +132,7 @@ Para dicha actividad implementamos el circuito mostrado en la siguiente imagen, 
 \includegraphics[width=6cm]{./imagenes/Lab2.jpg}
 
 \begin{table}[ht]
-\resizebox{6cm}{!}{%
+\resizebox{5cm}{!}{%
 \begin{tabular}{|l|l|}
 \hline
 \rowcolor[HTML]{FFCC67} 
@@ -113,9 +152,47 @@ $V_{GS}${[}mV{]} & $I_D${[}mA{]} \\ \hline
 }
 \end{table}
 
-\vspace{0.05cm}
+\vspace{0.1cm}
 
-\includegraphics[width=8cm]{./imagenes/ejercicio2.png}
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            width=8cm,
+            height=5cm,
+            xlabel={$V_{GS}$ [mV]},
+            ylabel={$I_D$ [mA]},
+            grid=major,
+            ymin=0, ymax=10,
+            xmin=0, xmax=750,
+            xtick={0,100,200,300,400,500,600,700},
+            ytick={0,2,4,6,8,10},
+            legend pos=north east
+        ]
+        \addplot[
+            color=red,
+            mark=*,
+            thick
+        ] coordinates {
+            (0,9.17)
+            (36,8.57)
+            (96.5,5.61)
+            (172,4.06)
+            (230,2.78)
+            (265,2.46)
+            (348,1.36)
+            (396,0.86)
+            (451,0.49)
+            (537,0.21)
+            (700,0.00124)
+        };
+        \legend{Datos medidos}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Gráfica de $I_D$ vs $V_{GS}$ obtenida en laboratorio}
+\end{figure}
+
+\vspace{0.05cm}
 
 \newpage
 
