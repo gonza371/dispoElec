@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1759805274.63593 "c:/Users/gonfi/Documents/Github/Gonza/dispoElec/tp4/Informe.tex" "build/Informe.pdf" "Informe" 1759805276.55797 0
+["pdflatex"] 1759805518.93344 "c:/Users/gonfi/Documents/Github/Gonza/dispoElec/tp4/Informe.tex" "build/Informe.pdf" "Informe" 1759805520.85313 0
   "C:/Users/gonfi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1759804888 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/gonfi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1750263635 13234938 d58bb3502aaad703297f3d501f0c0d64 ""
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -254,14 +254,14 @@
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
   "Informe.tex" 1759804858 1280 cd370ebbaefe811181297a5c61ea540a ""
-  "actividad1.tex" 1759805272 6871 ad1706444c16e9d5c7cee689e9b4a09f ""
+  "actividad1.tex" 1759805518 6873 f0a1d6da82d7324ee42ffbeea56706f1 ""
   "actividad3.tex" 1759804858 2020 ab9cb76667dff50da16012e344d20e90 ""
-  "actividad4.tex" 1759804858 436 0d96d35d128849f7a01b6877a9a9e8b9 ""
-  "build/Informe.aux" 1759805276 3478 5154e1f2245ebd4a0be5c8cb4288cabb "pdflatex"
-  "build/Informe.toc" 1759805276 1332 4887febc7f4a100dc6e66d6147e6ed55 "pdflatex"
-  "build/caratula.aux" 1759805276 1445 d28bdd32d588ca8108e876025925c18d "pdflatex"
-  "build/configContenido.aux" 1759805276 1428 f66e6bcaea83a25f3d477fe7c04082c6 "pdflatex"
-  "build/indice.aux" 1759805276 1467 83c77d30c597e99c00b5059a73be2638 "pdflatex"
+  "actividad4.tex" 1759805435 424 36d742c6dd6668809e9a825a5d58c2c2 ""
+  "build/Informe.aux" 1759805520 3411 1897e6eccd097c46d68b7e6a231a7e6c "pdflatex"
+  "build/Informe.toc" 1759805520 1332 9338bd35a8c7fcc894ed2eb281c01f81 "pdflatex"
+  "build/caratula.aux" 1759805520 1445 d28bdd32d588ca8108e876025925c18d "pdflatex"
+  "build/configContenido.aux" 1759805520 1428 f66e6bcaea83a25f3d477fe7c04082c6 "pdflatex"
+  "build/indice.aux" 1759805520 1467 83c77d30c597e99c00b5059a73be2638 "pdflatex"
   "build/pythontex-files-Informe/Informe.pytxmcr" 0 -1 0 ""
   "c:/Users/gonfi/Documents/Github/Gonza/dispoElec/tp4/Informe.tex" 1759804858 1280 cd370ebbaefe811181297a5c61ea540a ""
   "caratula.tex" 1759804858 1845 53570a04d0c8cb0105039c6197434295 ""

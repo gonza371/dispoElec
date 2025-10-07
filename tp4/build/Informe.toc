@@ -16,5 +16,5 @@
 \contentsline {subsection}{\numberline {3.2}Laboratorio}{3}{}%
 \contentsline {paragraph}{Instrumental y Materiales}{3}{}%
 \contentsline {subsection}{\numberline {3.3}Conclusión}{3}{}%
-\contentsline {section}{\numberline {4}Actividad 4: Interpretación de las especificaciones del fabricante}{4}{}%
-\contentsline {subsection}{\numberline {4.1}Actividad}{4}{}%
+\contentsline {section}{\numberline {4}Actividad 4: Interpretación de las especificaciones del fabricante}{3}{}%
+\contentsline {subsection}{\numberline {4.1}Actividad}{3}{}%
