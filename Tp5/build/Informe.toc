@@ -14,6 +14,7 @@
 \contentsline {subsection}{\numberline {4.1}Actividad de Laboratorio}{3}{}%
 \contentsline {section}{\numberline {5}Actividad 5: Polarización y func. del TRIAC}{4}{}%
 \contentsline {subsection}{\numberline {5.1}Actividad de Laboratorio}{4}{}%
+\contentsline {paragraph}{Procedimiento}{4}{}%
 \contentsline {section}{\numberline {6}Actividad 6: Control de disparo del TRIAC}{4}{}%
 \contentsline {section}{\numberline {7}Actividad 7: Interpretación del Datasheet}{5}{}%
 \contentsline {subsection}{\numberline {7.1}Parametros del DIAC}{5}{}%
