@@ -24,7 +24,7 @@ Ahora subimos El valor de Vcc a 100V y repetimos los pasos anteriores. \\
 Luego subimos El valor de Vcc a 150V y repetimos los pasos anteriores.\\
 Y finalmente obtenemos el siguiente grafico dado por las siguientes tablas:
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \begin{tikzpicture}
 \begin{axis}[
@@ -117,6 +117,7 @@ Y finalmente obtenemos el siguiente grafico dado por las siguientes tablas:
 \end{minipage}
 \end{table}
 
+\paragraph{Análisis de Resultados}
 
-\newpage
-
+Según las tablas obtenidas podemos ver como para mayores valores de tensión de alimentación, el TRIAC se dispara con menores valores de corriente de compuerta. Esto se debe a que al aumentar la tensión de alimentación, la corriente a través del dispositivo también aumenta, lo que facilita el disparo del TRIAC con una corriente de compuerta menor.\\
+Con respecto al grafico comparando $I_A$ vs $I_G$, podemos observar que efectivamente cuando se aumenta la tensión de alimentación, se necesitan menores valores de corriente de compuerta para que el TRIAC conduzca. Lo unico malo fue que para 180V el disparo ocurre tan rápido que no pudimos medir la corriente de compuerta, pero si la corriente de anodo.\\

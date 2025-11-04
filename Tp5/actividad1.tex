@@ -17,6 +17,21 @@ Para esta actividad se implementó el siguiente circuito:
 
 Primero se dejó la fuente $V_{CC}$ en 0, se cerró el interruptor y se empezó a variar el potenciometro para obtener valores de $V_G$ e $I_G$.
 
+\begin{table}[h]
+    \centering
+    \caption{Datos de Voltaje y Corriente}
+    \label{tab:VG_IG} 
+    \begin{tabular}{|c|c|c|c|c|c|c|c|}
+        \hline
+        $V_{\text{G}}$ \textbf{[V]} & 0,1 & 0,2 & 0,3 & 0,35 & 0,4 & 0,5 & 0,52 \\
+        \hline
+        $I_{\text{G}}$ \textbf{[mA]} & 0,4 & 0,9 & 1,5 & 1,7 & 2,0 & 2,5 & 2,6 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\includegraphics[width=8.08cm]{./imagenes/fig1_1.jpg}
+
 Luego se colocó $V_G$ en 0 y se cerró el interruptor y se colocó $V_{CC}$ en 100V. Lentamente aumentamos el valor $V_G$ hasta ver un cambio en $I_{AK}$.
 
 Dejamos el potenciometro en el valor que nos dió el disparo y abrimos el interruptor, observando que sucede con $I_{AK}$.
@@ -29,14 +44,38 @@ Abrimos el interruptor y analizamos que sucede con $I_{AK}$.
 
 Desconectamos las tensiones de alimentación sin mover nada y luego las volvemos a conectar, cerramos el interruptor y analizamos el comportamiento de $I_{AK}$.
 
-
+\begin{table}[ht]
+    \centering
+    \caption{Datos de $V_{CC}$, $V_{AK}$ e $I_{AK}$}
+    \label{tab:VCC_VAK_IAK}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        $\mathbf{V_{CC}\,[V]}$ & $\mathbf{V_{AK}\,[mV]}$ & $\mathbf{I_{AK}\,[mA]}$ \\
+        \hline
+        100 & 730 & 21,1 \\
+        90 & 729 & 18,2 \\
+        80 & 726 & 16,6 \\
+        70 & 724 & 14,5 \\
+        60 & 721 & 12,4 \\
+        50 & 721 & 10,3 \\
+        40 & 738 & 8,2 \\
+        35 & 742 & 7,2 \\
+        30 & 805 & 6,0 \\
+        28,4 & 28,4 & 0 \\
+        \hline
+    \end{tabular}
+\end{table}
+\includegraphics[width=8cm]{./imagenes/fig2_1.jpg}
 \paragraph{Analisis de Resultados}
 
 \begin{enumerate}
-    \item Analizar y mencionar la alternativa que se presentó para disparar un SCR. ¿Cómo la puede explicar?. Existe otra manera de disparar el SCR sin corriente en la compuerta ¿Cual es ese método?
-    \item Analizar y sacar conclusiones de las conexiones y mediciones realizadas.
+    \item El metodo que se nos presento es disparo por corriente de compuerta ya que al llegar a un valor de $V_G$ suficiente como para disparar $I_G$ el SCR conduce para un cierto valor menor de $V_{AK}$, a la hora de abrir el interruptor el SCR sigue conduciendo hasta que la corriente baja de $I_H$ como se puede observar en la grafica. El SCR puede encenderse sin que se active la compuerta incrementando el voltaje $V_{AK}$ hasta que este supere el voltaje de $V_{BR}$.
+   
+    
+    \item Las concluciones que se pueden obtener de la experiencia realizada es que la curva $I_G=f(V_G)$ que observamos al principio de las actividades de laboratorio es similar a la de un diodo, ya que dispara la corriente a partir de un cierto valor de $V_G$.
 \end{enumerate}
 
+\newpage
 
 \subsection{Simulación}
 
@@ -56,4 +95,4 @@ Por ultimo realizaremos un disparo controlado, dejaremos la fuente $V_2$ en 100V
 
 \includegraphics[width=8cm]{./imagenes/Simres3.png}
 
-En la primera simulacion observamos que la curva tiene un comportamiento similar al de un diodo, con una caida de tension directa de aproximadamente 0.7V. En la segunda simulacion observamos que el SCR se dispara alrededor de los 1.56V. En la tercera simulacion con $V_2$ en 100V, el SCR empieza a conducir entre los 0.6V y los 0.7V como se observa en la grafica.
+En la primera simulacion observamos que la curva tiene un comportamiento similar al de un diodo, con una caida de tension directa de aproximadamente 0.7V. En la segunda simulacion observamos que el SCR se dispara alrededor de los 1.56V. En la tercera simulacion con $V_2$ en 100V, el SCR empieza a conducir entre los 0.6V y los 0.7V como se observa en la grafica.

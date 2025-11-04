@@ -1,3 +1,9 @@
+\newpage
+
+\text{}
+
+\newpage
+
 \section{Actividad 6: Control de disparo del TRIAC}
 
 \subsection{Actividad de Laboratorio}
@@ -16,3 +22,59 @@ Conectamos el transformador de aislación a la red eléctrica y luego conectamos
 Llevamos el potenciómetro hacia el valor óhmico más alto, observamos y graficamos la forma de onda observada en el osciloscopio.\\
 Ahora variamos el valor del potenciómetro mientras observamos la forma de onda en el osciloscopio, graficando las diferentes formas de onda obtenidas para distintos valores del potenciómetro.\\
 Luego medimos con el osciloscopio el valor de $I_H$ que produce el apagado del TRIAC al final de cada semiciclo.\\
+Observando la forma de onda a la salida del TRIAC obtuvimos las siguientes gráficas:
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=8cm]{./imagenes/sal1.jpg}
+    \caption{Salida del TRIAC con el potenciómetro en su valor mínimo.}
+    \label{fig:sal1}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=8cm]{./imagenes/sal2.jpg}
+    \caption{Salida del TRIAC con el potenciómetro en un valor intermedio.}
+    \label{fig:sal2}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=8cm]{./imagenes/sal3.jpg}
+    \caption{Salida del TRIAC con el potenciómetro en su valor máximo.}
+    \label{fig:sal3}
+\end{figure} 
+
+\newpage
+
+\paragraph{Análisis de Resultados}
+Al variar el valor del potenciómetro, se modifica el ángulo de disparo del TRIAC, lo que a su vez afecta la forma de onda de salida.\\
+Cuando el potenciómetro está en su valor mínimo, el TRIAC se dispara casi al inicio de cada semiciclo, permitiendo que la mayor parte de la onda de entrada pase a la salida, como se observa en la Figura \ref{fig:sal1}.\\
+Al aumentar el valor del potenciómetro a un valor intermedio, el ángulo de disparo se retrasa, lo que resulta en una forma de onda de salida que comienza más tarde en cada semiciclo, como se muestra en la Figura \ref{fig:sal2}.\\
+Finalmente, cuando el potenciómetro está en su valor máximo, el TRIAC se dispara muy tarde en cada semiciclo, permitiendo que solo una pequeña porción de la onda de entrada llegue a la salida, como se observa en la Figura \ref{fig:sal3}.\\
+Este comportamiento es característico de los circuitos de control de fase utilizando TRIACs, donde el ajuste del ángulo de disparo permite controlar la potencia entregada a la carga conectada al TRIAC.\\
+
+Como ejemplo se puso una lampara como carga, y el grafico obtenido de esta con respecto a la entrada fueron los siguientes:
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=8cm]{./imagenes/carga1.jpg}
+    \caption{Salida del TRIAC con el potenciómetro en su valor mínimo.}
+    \label{fig:carga1}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=8cm]{./imagenes/carga2.jpg}
+    \caption{Salida del TRIAC con el potenciómetro en un valor intermedio.}
+    \label{fig:carga2}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=8cm]{./imagenes/carga3.jpg}
+    \caption{Salida del TRIAC con el potenciómetro en su valor máximo.}
+    \label{fig:carga3}
+\end{figure}
+
+
