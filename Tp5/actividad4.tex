@@ -4,3 +4,82 @@
 
 \subsection{Actividad de Laboratorio}
 
+\begin{itemize}
+    \item DIAC DB3.
+    \item Dos multímetros.
+    \item Resistores varios.
+    \item Fuente de alimentación de 0 a 600V.
+\end{itemize}
+
+\paragraph{Procedimiento}
+Se montó el siguiente circuito:\\
+\includegraphics[width=8cm]{./imagenes/Circ4.png}
+
+Variamos la tensión de alimentación de 0 a 50V, midiendo la corriente y caída de tensión en el DIAC.\\
+Luego invertimos los terminales del DIAC y repetimos el procedimiento anterior.\\
+
+Como resultados obtenemos la siguiente tabla y el siguiente gráfico:
+
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{|>{\columncolor[HTML]{FFCCC9}}c |c|c|}
+\hline
+\cellcolor[HTML]{FFFC9E}$V_{CC}${[}V{]} & \cellcolor[HTML]{FFFC9E}$V_{AK}${[}V{]} & \cellcolor[HTML]{FFFC9E}$I_A${[}mA{]} \\ \hline
+0    & 0    & 0    \\ \hline
+5    & 5    & 0    \\ \hline
+10   & 10   & 0    \\ \hline
+15   & 15   & 0    \\ \hline
+20   & 20   & 0    \\ \hline
+22   & 22   & 0    \\ \hline
+25   & 25   & 0    \\ \hline
+28   & 28   & 0    \\ \hline
+30   & 30   & 0    \\ \hline
+32   & 23.8 & 1.74 \\ \hline
+34.3 & 23.4 & 2.24 \\ \hline
+40.4 & 22.6 & 3.72 \\ \hline
+45   & 22.2 & 4.9  \\ \hline
+50   & 21.9 & 5.92 \\ \hline
+\end{tabular}
+\caption{Mediciones de $I_A$ frente a $V_{AK}$.}
+\end{table}
+
+\begin{figure}[ht]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    width=0.49\textwidth,
+    height=5cm,
+    xlabel={$V_{AK}$ (V)},
+    ylabel={$I_A$ (mA)},
+    xmin=0, xmax=32,
+    ymin=0, ymax=7,
+    grid=both,
+    grid style={line width=.1pt, draw=gray!20},
+    major grid style={line width=.2pt, draw=gray!40},
+    legend pos=north west,
+    tick label style={font=\small}
+]
+\addplot[
+    color=blue,
+    mark=*,
+    only marks,
+    mark options={scale=0.9}
+] coordinates {
+    (0,0) (5,0) (10,0) (15,0) (20,0) (22,0) (25,0) (28,0) (30,0) (23.8,1.74) (23.4,2.24) (22.6,3.72) (22.2,4.9) (21.9,5.92)
+};
+\addlegendentry{Puntos medidos}
+
+\addplot[
+    red,
+    thick,
+    smooth
+] coordinates {
+    (0,0) (5,0) (10,0) (15,0) (20,0) (22,0) (25,0) (28,0) (30,0) (23.8,1.74) (23.4,2.24) (22.6,3.72) (22.2,4.9) (21.9,5.92)
+};
+\addlegendentry{Curva interpolada}
+\end{axis}
+\end{tikzpicture}
+\caption{Curva de $I_A$ en función de $V_{AK}$.}
+\label{fig:ia_vs_vak}
+\end{figure}

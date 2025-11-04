@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  4 NOV 2025 12:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  4 NOV 2025 14:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1103,50 +1103,81 @@ Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on inp
 (pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
 [2 <./imagenes/Simres3.png>]) (actividad4.tex
 
+<./imagenes/Circ4.png, id=43, 455.45157pt x 499.11469pt>
+File: ./imagenes/Circ4.png Graphic file (type png)
+<use ./imagenes/Circ4.png>
+Package pdftex.def Info: ./imagenes/Circ4.png  used on input line 16.
+(pdftex.def)             Requested size: 227.62204pt x 249.45009pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
 ) (actividad5.tex
 
 File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
 <use ./imagenes/logoDepartamentoElectronica.png>
 Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 1.
 (pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
-[3]
-<./imagenes/Circ5.png, id=47, 696.35156pt x 523.20468pt>
+[3 <./imagenes/Circ4.png>]
+<./imagenes/Circ5.png, id=49, 696.35156pt x 523.20468pt>
 File: ./imagenes/Circ5.png Graphic file (type png)
 <use ./imagenes/Circ5.png>
 Package pdftex.def Info: ./imagenes/Circ5.png  used on input line 18.
 (pdftex.def)             Requested size: 227.62204pt x 171.02147pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 68--118
- [][] 
- []
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 
 ) (actividad6.tex
-
+<./imagenes/Circ6.png, id=50, 1068.99374pt x 444.15938pt>
+File: ./imagenes/Circ6.png Graphic file (type png)
+<use ./imagenes/Circ6.png>
+Package pdftex.def Info: ./imagenes/Circ6.png  used on input line 13.
+(pdftex.def)             Requested size: 227.62204pt x 94.57068pt.
 ) (actividad7.tex
+Underfull \hbox (badness 2173) in paragraph at lines 15--1
+[]\OT1/ptm/m/n/10 Conectamos el trans-for-ma-dor de ais-la-ci[]on a la red
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--1
+
+ []
+
+
 
 File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
 <use ./imagenes/logoDepartamentoElectronica.png>
 Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 1.
 (pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
-[4 <./imagenes/Circ5.png>])
+[4 <./imagenes/Circ5.png> <./imagenes/Circ6.png>]
 
 
 
 File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
 <use ./imagenes/logoDepartamentoElectronica.png>
+Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 29.
+(pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
+[5]
+
+)
+
+File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
+<use ./imagenes/logoDepartamentoElectronica.png>
 Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 54.
 (pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
-[5
-
-] 
+[6] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20251104125839 485F51DA614295E99B9A62A4CA5961CE)...disabled (restricted).
+runsystem(latexminted cleantemp  --timestamp 20251104143531 485F51DA614295E99B9A62A4CA5961CE)...disabled (restricted).
 
 (c:\Users\gonfi\Documents\Github\Gonza\dispoElec\Tp5\build\Informe.aux (c:\Users\gonfi\Documents\Github\Gonza\dispoElec\Tp5\build\caratula.aux)
 LaTeX Info: Redefining \. on input line 9.
@@ -1158,17 +1189,17 @@ L3 programming layer <2025-05-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 57318 strings out of 468225
- 1554032 string characters out of 5432973
- 2446409 words of memory out of 5000000
- 85112 multiletter control sequences out of 15000+600000
- 664109 words of font info for 117 fonts, out of 8000000 for 9000
+ 57363 strings out of 468225
+ 1555073 string characters out of 5432973
+ 2458409 words of memory out of 5000000
+ 85155 multiletter control sequences out of 15000+600000
+ 664739 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,27n,107p,755b,2319s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,27n,107p,755b,2304s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:\Users\gonfi\Documents\Github\Gonza\dispoElec\Tp5\build\Informe.pdf (9 pages, 1486277 bytes).
+Output written on c:\Users\gonfi\Documents\Github\Gonza\dispoElec\Tp5\build\Informe.pdf (10 pages, 1590574 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
