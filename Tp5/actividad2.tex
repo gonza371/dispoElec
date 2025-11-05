@@ -111,12 +111,79 @@ $1.5\,\text{V}$ & $27.6\,\mu\text{A}$ & $2.0\,\text{V}$ & $22\,\mu\text{A}$ \\ \
 
 \end{table}
 
-\includegraphics[width=8.08cm]{./imagenes/curva_scr.jpg}
+En base a los datos obtenidos, podemos graficar las curvas $I_{AK}$ vs $V_{AK}$ para los distintos valores de $I_G$.\\
+
+\begin{figure}[ht]
+\centering
+\pgfplotsset{compat=1.18}
+\begin{tikzpicture}
+\begin{axis}[
+    width=1.1\linewidth,
+    height=7cm,
+    xlabel={$V_{AK}$ (V)},
+    ylabel={$I_{AK}$ ($\mu$A)},
+    xmin=0, xmax=2.1,
+    ymin=0,
+    grid=both,
+    major grid style={gray!40},
+    minor grid style={gray!10},
+    legend cell align=left,
+    legend pos=north west,
+    cycle list name=color list,
+    mark options={scale=0.9}
+]
+
+% I_G = 50 μA
+\addplot[thick,mark=o,blue] coordinates {
+    (0.300,0.18) (0.600,0.373) (0.800,13.48) (0.900,31.6) (1.000,45.26) (1.200,66.9) (1.500,87.4)
+};
+\addlegendentry{$I_G=50\,\mu$A}
+
+% I_G = 40 μA
+\addplot[thick,mark=square*,red] coordinates {
+    (0.300,0.18) (0.600,0.373) (0.700,0.43) (0.800,13.0) (1.000,45.26) (1.100,53.0) (1.200,53.9)
+};
+\addlegendentry{$I_G=40\,\mu$A}
+
+% I_G = 30 μA
+\addplot[thick,mark=triangle*,yellow] coordinates {
+    (0.300,0.187) (0.600,0.373) (0.700,0.436) (0.900,14.0) (1.000,38.53) (1.200,40.06) (1.400,42.07)
+};
+\addlegendentry{$I_G=30\,\mu$A}
+
+% I_G = 20 μA
+\addplot[thick,mark=diamond*,green] coordinates {
+    (0.400,0.25) (0.700,0.436) (0.800,11.3) (0.900,23.5) (1.200,27.33) (1.400,27.5) (1.500,27.6)
+};
+\addlegendentry{$I_G=20\,\mu$A}
+
+% I_G = 10 μA
+\addplot[thick,mark=star,purple] coordinates {
+    (0.200,0.124) (0.600,0.373) (0.700,0.436) (0.800,8.5) (1.100,14.0) (1.400,14.5) (2.000,22.0)
+};
+\addlegendentry{$I_G=10\,\mu$A}
+
+\end{axis}
+\end{tikzpicture}
+\caption{Curvas $I_{AK}$ vs $V_{AK}$ para distintos valores de $I_G$. Las corrientes están en $\mu$A.}
+\end{figure}
+
+
+\newpage
 
 \paragraph{Analisis de Resultados}
+\begin{enumerate}[label=\textbf{\alph*)}, ref=\alph*]
 
-Las curvas $I_{AK} = f(V_{AK})$ muestran que, al aumentar $I_G$, el SCR conduce con menor tensión $V_{AK}$, desplazando el punto de disparo hacia la izquierda. Después del disparo, la corriente crece bruscamente y el dispositivo entra en una zona de baja resistencia. También se observa histéresis, al disminuir la tensión, el SCR se apaga recién cuando $I_{AK}$ cae por debajo de la corriente de mantenimiento $I_H$.
+    \item \textbf{Conclusiones sobre la Tabla 2}
 
+    Se observa que al aumentar la corriente de compuerta $I_G$, el valor de tensión $V_{CC}$ necesario para disparar el SCR disminuye. Esto ocurre porque una mayor $I_G$ facilita la conducción del dispositivo al inyectar más portadores en la región interna, reduciendo el umbral de disparo. Por lo tanto, existe una relación inversa entre $I_G$ y la tensión de disparo $V_{AK}$.
 
+    
+    \setcounter{enumi}{2} 
+    \item \textbf{Conclusiones del gráfico}
+
+    Las curvas $I_{AK} = f(V_{AK})$ muestran que, al aumentar $I_G$, el SCR conduce con menor tensión $V_{AK}$, desplazando el punto de disparo hacia la izquierda. Después del disparo, la corriente crece bruscamente y el dispositivo entra en una zona de baja resistencia. También se observa histéresis, al disminuir la tensión, el SCR se apaga recién cuando $I_{AK}$ cae por debajo de la corriente de mantenimiento $I_H$.
+
+\end{enumerate}
 
 

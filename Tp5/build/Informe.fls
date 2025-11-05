@@ -604,13 +604,6 @@ INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT .\imagenes\curva_scr.jpg
-INPUT .\imagenes\curva_scr.jpg
-INPUT .\imagenes\curva_scr.jpg
-INPUT .\imagenes\curva_scr.jpg
-INPUT .\imagenes\curva_scr.jpg
-INPUT .\imagenes\curva_scr.jpg
-INPUT .\imagenes\curva_scr.jpg
 INPUT .\actividad4.tex
 INPUT .\actividad4.tex
 INPUT actividad4.tex
@@ -662,6 +655,8 @@ INPUT .\imagenes\logoDepartamentoElectronica.png
 INPUT .\imagenes\logoDepartamentoElectronica.png
 INPUT .\imagenes\logoDepartamentoElectronica.png
 INPUT .\imagenes\logoDepartamentoElectronica.png
+INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7y.vf
+INPUT C:\Users\gonfi\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
 INPUT .\imagenes\Circ5.png
 INPUT .\imagenes\Circ5.png
 INPUT .\imagenes\Circ5.png
@@ -704,10 +699,6 @@ INPUT .\imagenes\sal3.jpg
 INPUT .\imagenes\sal3.jpg
 INPUT .\imagenes\sal3.jpg
 INPUT .\imagenes\sal3.jpg
-INPUT .\imagenes\logoDepartamentoElectronica.png
-INPUT .\imagenes\logoDepartamentoElectronica.png
-INPUT .\imagenes\logoDepartamentoElectronica.png
-INPUT .\imagenes\logoDepartamentoElectronica.png
 INPUT .\imagenes\carga1.jpg
 INPUT .\imagenes\carga1.jpg
 INPUT .\imagenes\carga1.jpg
@@ -742,6 +733,10 @@ INPUT .\imagenes\logoDepartamentoElectronica.png
 INPUT .\imagenes\logoDepartamentoElectronica.png
 INPUT .\imagenes\logoDepartamentoElectronica.png
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT .\imagenes\logoDepartamentoElectronica.png
+INPUT .\imagenes\logoDepartamentoElectronica.png
+INPUT .\imagenes\logoDepartamentoElectronica.png
+INPUT .\imagenes\logoDepartamentoElectronica.png
 INPUT c:\Users\gonfi\Documents\Github\Gonza\dispoElec\Tp5\build\Informe.aux
 INPUT c:\Users\gonfi\Documents\Github\Gonza\dispoElec\Tp5\build\caratula.aux
 INPUT c:\Users\gonfi\Documents\Github\Gonza\dispoElec\Tp5\build\caratula.aux
@@ -756,6 +751,8 @@ INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\type1\urw\symbol\usyr.pfb
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\type1\urw\symbol\usyr.pfb
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\type1\urw\symbol\usyr.pfb
